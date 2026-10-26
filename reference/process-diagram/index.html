@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Process diagram | ASI OS work methodology</title>
+<meta name="description" content="The five stages of guided work as one picture, with the two points where you decide.">
+<link rel="canonical" href="https://andy-oneforce.github.io/guild-website-4/guild-website-4/reference/process-diagram/">
+<meta property="og:title" content="Process diagram | ASI OS work methodology">
+<meta property="og:description" content="The five stages of guided work as one picture, with the two points where you decide.">
+<script>(function(){try{var t=localStorage.getItem('asios-theme');if(t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.setAttribute('data-theme','dark')}catch(e){}})();</script>
+<link rel="stylesheet" href="/guild-website-4/assets/engine/theme.css">
+<link rel="stylesheet" href="/guild-website-4/assets/engine/layout.css">
+<link rel="stylesheet" href="/guild-website-4/assets/engine/blocks.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-pagefind-ignore>
+<a class="site-header__title" href="/guild-website-4/">ASI OS work methodology</a>
+<button type="button" class="theme-toggle" data-theme-toggle aria-label="Change theme"></button>
+</header>
+<div class="site-shell">
+<nav class="site-nav" aria-label="Site" data-pagefind-ignore><ul><li><a href="/guild-website-4/">Home</a></li><li><span class="site-nav__group">Start here</span><ul><li><a href="/guild-website-4/start-here/what-this-site-covers/">What this site covers</a></li><li><a href="/guild-website-4/start-here/how-work-is-organised/">How work is organised</a></li></ul></li><li><span class="site-nav__group">Work structure</span><ul><li><a href="/guild-website-4/work-structure/the-master-rule/">The master rule</a></li><li><a href="/guild-website-4/work-structure/routing-an-idea/">Routing an idea</a></li><li><a href="/guild-website-4/work-structure/narrowing-projects-and-programs/">Narrowing projects and programs</a></li></ul></li><li><span class="site-nav__group">Work families and phases</span><ul><li><a href="/guild-website-4/work-families/the-family-methodology/">The family methodology</a></li><li><a href="/guild-website-4/work-families/phases-and-their-routes/">Phases and their routes</a></li><li><a href="/guild-website-4/work-families/document-kinds/">Document kinds</a></li><li><a href="/guild-website-4/work-families/frontmatter-by-kind/">Frontmatter by kind</a></li></ul></li><li><span class="site-nav__group">Processes</span><ul><li><a href="/guild-website-4/processes/the-process-catalog/">The process catalog</a></li><li><a href="/guild-website-4/processes/mapping-processes-to-work-types/">Mapping processes to work types</a></li><li><a href="/guild-website-4/processes/how-intake-routes/">How intake routes</a></li><li><a href="/guild-website-4/processes/levels-one-or-two/">Levels: one or two</a></li></ul></li><li><span class="site-nav__group">Knowledge and CRM</span><ul><li><a href="/guild-website-4/knowledge-and-crm/knowledge-documents/">Knowledge documents</a></li><li><a href="/guild-website-4/knowledge-and-crm/integrating-documents-into-the-knowledge-base/">Integrating documents into the knowledge base</a></li><li><a href="/guild-website-4/knowledge-and-crm/crm-alignment/">CRM alignment</a></li></ul></li><li><span class="site-nav__group">Reference</span><ul><li><a href="/guild-website-4/reference/terms/">Terms</a></li><li><a href="/guild-website-4/reference/process-diagram/" aria-current="page">Process diagram</a></li><li><a href="/guild-website-4/reference/decisions-record/">Decisions record</a></li></ul></li></ul></nav>
+<main id="main" class="site-main" data-pagefind-body>
+<p class="page-updated">Updated <time datetime="2026-10-26">2026-10-26</time></p>
+<h1 id="process-diagram">Process diagram</h1>
+<p>This diagram shows the five stages every piece of work follows, from first request to finished result. Stages 3 to 5 repeat on top of the previous version until the work meets its definition of done.</p>
+<pre class="mermaid">flowchart TD
+  A[1 Intake: scope and done-when] --&gt; B[2 Route: work type and phase]
+  B --&gt; C{You confirm the route}
+  C --&gt;|correct| B
+  C --&gt;|yes| D[3 Draft for approval]
+  D --&gt; E{You approve the first result}
+  E --&gt;|changes| D
+  E --&gt;|yes| F[4 Build]
+  F --&gt; G[5 Iterate: check against done]
+  G --&gt;|next improvement| D
+  G --&gt;|done| H[Retrospective]</pre>
+<h2 id="reading-the-diagram">Reading the diagram</h2>
+<ul>
+<li><strong>Intake.</strong> The system asks for the goal, scope, definition of done, audience, constraints and how much involvement you want. It writes the scope.</li>
+<li><strong>Route.</strong> The system chooses the work type and phase and states why. You confirm or correct.</li>
+<li><strong>Draft for approval.</strong> The system writes the first result in the smallest form that can be judged and lists open questions.</li>
+<li><strong>First result decision.</strong> You review, answer and approve before any build.</li>
+<li><strong>Build.</strong> The system implements against the approved first result and reports at agreed points.</li>
+<li><strong>Iterate.</strong> The system checks the result against the definition of done and proposes the next improvement. When the work ends it writes a retrospective.</li>
+</ul>
+<div class="block-hint block-hint--info">
+<p>You decide at two points only: the route and the first result, plus your answers during intake. The system does everything else.</p>
+</div>
+<p>Read the stages in words on <a href="/guild-website-4/start-here/how-work-is-organised/">How work is organised</a>.</p>
+<nav class="page-nav" aria-label="Pager" data-pagefind-ignore><a rel="prev" href="/guild-website-4/reference/terms/">&larr; Terms</a><a rel="next" href="/guild-website-4/reference/decisions-record/">&rarr; Decisions record</a></nav>
+</main>
+<nav class="site-toc" aria-label="On this page" data-pagefind-ignore><ul><li class="toc-l2"><a href="#reading-the-diagram">Reading the diagram</a></li></ul></nav>
+</div>
+<script src="/guild-website-4/assets/engine/theme.js" defer></script>
+<script src="/guild-website-4/assets/engine/mermaid-loader.js" defer></script>
+</body>
+</html>

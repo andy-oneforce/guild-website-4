@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The master rule | ASI OS work methodology</title>
+<meta name="description" content="When an activity grows into a project, the activity itself becomes the master and new work joins it as members.">
+<link rel="canonical" href="https://andy-oneforce.github.io/guild-website-4/guild-website-4/work-structure/the-master-rule/">
+<meta property="og:title" content="The master rule | ASI OS work methodology">
+<meta property="og:description" content="When an activity grows into a project, the activity itself becomes the master and new work joins it as members.">
+<script>(function(){try{var t=localStorage.getItem('asios-theme');if(t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.setAttribute('data-theme','dark')}catch(e){}})();</script>
+<link rel="stylesheet" href="/guild-website-4/assets/engine/theme.css">
+<link rel="stylesheet" href="/guild-website-4/assets/engine/layout.css">
+<link rel="stylesheet" href="/guild-website-4/assets/engine/blocks.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-pagefind-ignore>
+<a class="site-header__title" href="/guild-website-4/">ASI OS work methodology</a>
+<button type="button" class="theme-toggle" data-theme-toggle aria-label="Change theme"></button>
+</header>
+<div class="site-shell">
+<nav class="site-nav" aria-label="Site" data-pagefind-ignore><ul><li><a href="/guild-website-4/">Home</a></li><li><span class="site-nav__group">Start here</span><ul><li><a href="/guild-website-4/start-here/what-this-site-covers/">What this site covers</a></li><li><a href="/guild-website-4/start-here/how-work-is-organised/">How work is organised</a></li></ul></li><li><span class="site-nav__group">Work structure</span><ul><li><a href="/guild-website-4/work-structure/the-master-rule/" aria-current="page">The master rule</a></li><li><a href="/guild-website-4/work-structure/routing-an-idea/">Routing an idea</a></li><li><a href="/guild-website-4/work-structure/narrowing-projects-and-programs/">Narrowing projects and programs</a></li></ul></li><li><span class="site-nav__group">Work families and phases</span><ul><li><a href="/guild-website-4/work-families/the-family-methodology/">The family methodology</a></li><li><a href="/guild-website-4/work-families/phases-and-their-routes/">Phases and their routes</a></li><li><a href="/guild-website-4/work-families/document-kinds/">Document kinds</a></li><li><a href="/guild-website-4/work-families/frontmatter-by-kind/">Frontmatter by kind</a></li></ul></li><li><span class="site-nav__group">Processes</span><ul><li><a href="/guild-website-4/processes/the-process-catalog/">The process catalog</a></li><li><a href="/guild-website-4/processes/mapping-processes-to-work-types/">Mapping processes to work types</a></li><li><a href="/guild-website-4/processes/how-intake-routes/">How intake routes</a></li><li><a href="/guild-website-4/processes/levels-one-or-two/">Levels: one or two</a></li></ul></li><li><span class="site-nav__group">Knowledge and CRM</span><ul><li><a href="/guild-website-4/knowledge-and-crm/knowledge-documents/">Knowledge documents</a></li><li><a href="/guild-website-4/knowledge-and-crm/integrating-documents-into-the-knowledge-base/">Integrating documents into the knowledge base</a></li><li><a href="/guild-website-4/knowledge-and-crm/crm-alignment/">CRM alignment</a></li></ul></li><li><span class="site-nav__group">Reference</span><ul><li><a href="/guild-website-4/reference/terms/">Terms</a></li><li><a href="/guild-website-4/reference/process-diagram/">Process diagram</a></li><li><a href="/guild-website-4/reference/decisions-record/">Decisions record</a></li></ul></li></ul></nav>
+<main id="main" class="site-main" data-pagefind-body>
+<p class="page-updated">Updated <time datetime="2026-10-26">2026-10-26</time></p>
+<h1 id="the-master-rule">The master rule</h1>
+<p>Work often starts as one activity and grows into something larger. The master rule says what happens then.</p>
+<blockquote>
+<p>When you approve a tier of project or above for an activity, that activity becomes the master of the work it was already doing. It keeps its identity and message thread, lists its members, and creates every new piece of work as a new member activity that points back to it.</p>
+</blockquote>
+<p>You decide when this happens. The system proposes a tier, you choose, and nothing escalates automatically.</p>
+<h2 id="why-promote-in-place">Why promote in place</h2>
+<p>Two other approaches were considered.</p>
+<table>
+<thead>
+<tr>
+<th>Approach</th>
+<th>What happens</th>
+<th>Trade-off</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Keep the old mechanism</td>
+<td>A new master activity is spun off and the original stays a member</td>
+<td>Simple, but the original's name and history point to a different master, and an extra record exists only to be a container</td>
+</tr>
+<tr>
+<td><strong>Promote in place (chosen)</strong></td>
+<td>The activity that grew becomes the master</td>
+<td>One activity keeps its id, name, history and thread</td>
+</tr>
+<tr>
+<td>Hybrid</td>
+<td>Promote in place when the name and goal already describe the whole project, otherwise spin off</td>
+<td>Case by case, more to decide each time</td>
+</tr>
+</tbody>
+</table>
+<p>Promoting in place matches how people describe it, and the existing member mechanism and checks already accept any activity as a master, so no new field is needed.</p>
+<h2 id="the-fields-involved">The fields involved</h2>
+<p>All of these exist already. None is new.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Where</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>role</code></td>
+<td>master</td>
+<td><code>master</code></td>
+</tr>
+<tr>
+<td><code>tier</code></td>
+<td>master</td>
+<td>project, program or portfolio</td>
+</tr>
+<tr>
+<td><code>master_id</code></td>
+<td>each member</td>
+<td>a link to the master</td>
+</tr>
+<tr>
+<td>Members section</td>
+<td>master body</td>
+<td>a hand-written roster</td>
+</tr>
+</tbody>
+</table>
+<div class="block-hint block-hint--info">
+<p>The word is <strong>master</strong>. The older word &quot;steward&quot; is retired and is not used for this.</p>
+</div>
+<h2 id="what-follows">What follows</h2>
+<p>A master does not remain a member of another activity unless it is itself a member of a program master. Because a project now appears only when an activity is promoted with an approved tier, new empty project shells stop appearing.</p>
+<p>See also <a href="/guild-website-4/work-structure/narrowing-projects-and-programs/">Narrowing projects and programs</a>.</p>
+<nav class="page-nav" aria-label="Pager" data-pagefind-ignore><a rel="prev" href="/guild-website-4/start-here/how-work-is-organised/">&larr; How work is organised</a><a rel="next" href="/guild-website-4/work-structure/routing-an-idea/">&rarr; Routing an idea</a></nav>
+</main>
+<nav class="site-toc" aria-label="On this page" data-pagefind-ignore><ul><li class="toc-l2"><a href="#why-promote-in-place">Why promote in place</a></li><li class="toc-l2"><a href="#the-fields-involved">The fields involved</a></li><li class="toc-l2"><a href="#what-follows">What follows</a></li></ul></nav>
+</div>
+<script src="/guild-website-4/assets/engine/theme.js" defer></script>
+</body>
+</html>
