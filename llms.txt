@@ -1,0 +1,46 @@
+# ASI OS work methodology
+
+> How ASI OS guides work from a first request to a finished result.
+
+## Pages
+
+- [ASI OS work methodology](https://guildpn.com/): How ASI OS guides work from a first request to a finished result, and how the pieces fit together.
+  - Markdown: https://guildpn.com/index.md
+- [CRM alignment](https://guildpn.com/knowledge-and-crm/crm-alignment/): How documents link to people and organisations today, with a reserved field for deals so nothing needs rewriting later.
+  - Markdown: https://guildpn.com/knowledge-and-crm/crm-alignment.md
+- [Integrating documents into the knowledge base](https://guildpn.com/knowledge-and-crm/integrating-documents-into-the-knowledge-base/): How the results of any work can be promoted into the knowledge base, driven by the activity rather than by hand.
+  - Markdown: https://guildpn.com/knowledge-and-crm/integrating-documents-into-the-knowledge-base.md
+- [Knowledge documents](https://guildpn.com/knowledge-and-crm/knowledge-documents/): The kinds of document used to plan and build a knowledge base, and the light reorganisation applied to them.
+  - Markdown: https://guildpn.com/knowledge-and-crm/knowledge-documents.md
+- [How intake routes](https://guildpn.com/processes/how-intake-routes/): The short decision tree the system uses to pick a process, and how it states its choice.
+  - Markdown: https://guildpn.com/processes/how-intake-routes.md
+- [Levels: one or two](https://guildpn.com/processes/levels-one-or-two/): Why the process catalog is one flat list rather than a nested tree, when that would change, and the rule for adding a process.
+  - Markdown: https://guildpn.com/processes/levels-one-or-two.md
+- [Mapping processes to work types](https://guildpn.com/processes/mapping-processes-to-work-types/): Which work type and phase each process belongs to.
+  - Markdown: https://guildpn.com/processes/mapping-processes-to-work-types.md
+- [The process catalog](https://guildpn.com/processes/the-process-catalog/): The named, repeatable work processes ASI OS can follow, with their triggers, documents, gates and exits.
+  - Markdown: https://guildpn.com/processes/the-process-catalog.md
+- [Decisions record](https://guildpn.com/reference/decisions-record/): A dated list of the decisions that shaped the work methodology and are now in force.
+  - Markdown: https://guildpn.com/reference/decisions-record.md
+- [Process diagram](https://guildpn.com/reference/process-diagram/): The five stages of guided work as one picture, with the two points where you decide.
+  - Markdown: https://guildpn.com/reference/process-diagram.md
+- [Terms](https://guildpn.com/reference/terms/): Definitions of the terms used across the ASI OS work methodology.
+  - Markdown: https://guildpn.com/reference/terms.md
+- [How work is organised](https://guildpn.com/start-here/how-work-is-organised/): The five-stage guided flow that every piece of work in ASI OS follows, from first request to finished result.
+  - Markdown: https://guildpn.com/start-here/how-work-is-organised.md
+- [What this site covers](https://guildpn.com/start-here/what-this-site-covers/): A short answer to how ASI OS organises work, routes ideas and keeps projects manageable.
+  - Markdown: https://guildpn.com/start-here/what-this-site-covers.md
+- [Document kinds](https://guildpn.com/work-families/document-kinds/): The catalog of document kinds, each tied to the question it answers, the stage that produces it and how it is kept up.
+  - Markdown: https://guildpn.com/work-families/document-kinds.md
+- [Frontmatter by kind](https://guildpn.com/work-families/frontmatter-by-kind/): The common front matter every document carries, and the extra fields each kind adds.
+  - Markdown: https://guildpn.com/work-families/frontmatter-by-kind.md
+- [Phases and their routes](https://guildpn.com/work-families/phases-and-their-routes/): The six phases of work and, for each, the extra questions asked, the first result produced and how it is built.
+  - Markdown: https://guildpn.com/work-families/phases-and-their-routes.md
+- [The family methodology](https://guildpn.com/work-families/the-family-methodology/): The guided-flow north star, what it kept from the earlier approach, and what it dropped.
+  - Markdown: https://guildpn.com/work-families/the-family-methodology.md
+- [Narrowing projects and programs](https://guildpn.com/work-structure/narrowing-projects-and-programs/): How overlapping projects and programs are tidied into a smaller set without deleting anything.
+  - Markdown: https://guildpn.com/work-structure/narrowing-projects-and-programs.md
+- [Routing an idea](https://guildpn.com/work-structure/routing-an-idea/): How ASI OS suggests where an idea belongs, waits for your confirmation, and only then delivers it.
+  - Markdown: https://guildpn.com/work-structure/routing-an-idea.md
+- [The master rule](https://guildpn.com/work-structure/the-master-rule/): When an activity grows into a project, the activity itself becomes the master and new work joins it as members.
+  - Markdown: https://guildpn.com/work-structure/the-master-rule.md
